@@ -20,7 +20,11 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Note: Make sure your Chrome Version is between 71 and 75
+Gotcha: You may need to run `ng e2e --port 4444` if you receive an error in Step 2.
+
+1. Make sure your app is running locally. `ng serve`
+2. Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
