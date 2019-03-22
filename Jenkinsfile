@@ -1,4 +1,4 @@
-#!/usr/bin/env/Groovy
+#!/usr/bin/env groovy
 @Library('jenkins-reference-framework') _
 
 nodeDeliveryPipeline {
