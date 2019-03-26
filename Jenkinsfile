@@ -3,7 +3,7 @@
 
 nodeDeliveryPipeline {
     apName = 'cb-fe-app'
-    buildCommand = 'npm run build:prod'
-    testCommand = 'npm test'
+    buildCommand = 'ng build'
+    testCommand = 'ng test'
     publishCommand = ''
 }
