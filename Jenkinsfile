@@ -1,8 +1,8 @@
 #!/usr/bin/env groovy
-@Library('jenkins-reference-framework') _
+@Library('jenkins-reference-framework@fe-apps') _
 
 nodeDeliveryPipeline {
-    apName = 'cb-fe-app'
+    appName = 'cb-fe-app'
     buildCommand = 'ng build'
     testCommand = 'ng test'
     publishCommand = ''
