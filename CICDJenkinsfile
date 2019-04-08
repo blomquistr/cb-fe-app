@@ -1,0 +1,6 @@
+#!/usr/bin/env groovy
+@Library('jenkins-reference-framework') _
+
+nodeDeliveryPipeline {
+    pcfAppName = 'cb-fe-app'
+}
