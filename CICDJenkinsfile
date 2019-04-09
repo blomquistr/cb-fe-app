@@ -1,6 +1,10 @@
 #!/usr/bin/env groovy
-@Library('jenkins-reference-framework') _
+@Library('jenkins-reference-framework@CLOUDBEES-87_fe-publish') _
 
 nodeDeliveryPipeline {
-    pcfAppName = 'cb-fe-app'
+    appName = 'cb-fe-app'
+    buildCommand = 'ng build'
+    testCommand = 'ng test'
+    artifactoryRepoKey = 'cicd-services'
+    artifactoryGroupName = 'com.mrll.cicd'
 }
