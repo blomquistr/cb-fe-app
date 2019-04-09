@@ -5,5 +5,6 @@ nodeDeliveryPipeline {
     appName = 'cb-fe-app'
     buildCommand = 'ng build'
     testCommand = 'ng test'
-    publishCommand = ''
+    artifactoryRepoKey = 'cicd-services'
+    artifactoryGroupName = 'com.mrll.cicd'
 }
