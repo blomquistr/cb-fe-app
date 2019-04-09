@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-@Library('jenkins-reference-framework@fe-apps') _
+@Library('jenkins-reference-framework@CLOUDBEES-87_fe-app') _
 
 nodeDeliveryPipeline {
     appName = 'cb-fe-app'
