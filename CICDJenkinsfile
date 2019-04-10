@@ -5,7 +5,7 @@ nodeDeliveryPipeline {
     appName = 'cb-fe-app'
     buildCommand = 'npm build'
     testCommand = 'npm test'
-    publishCommand = 'DEBUG=true jenkins-reference-framework/cli-publish.sh'
+    publishCommand = 'jenkins-reference-framework/cli-publish.sh'
     artifactoryRepoKey = 'cicd-services'
     artifactoryGroupName = 'com.mrll.cicd'
 }
