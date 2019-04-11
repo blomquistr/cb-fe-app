@@ -3,7 +3,7 @@
 
 nodeDeliveryPipeline {
     appName = 'cb-fe-app'
-    buildCommand = 'npm build'
+    buildCommand = 'npm install -g angular-cli && npm run build'
     testCommand = 'npm test'
     publishCommand = 'jenkins-reference-framework/cli-publish.sh'
     artifactoryRepoKey = 'cicd-services'
