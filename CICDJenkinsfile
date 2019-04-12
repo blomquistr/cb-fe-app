@@ -2,7 +2,7 @@
 @Library('jenkins-reference-framework@CLOUDBEES-87_fe-publish') _
 
 nodeDeliveryPipeline {
-    appName = 'cb-fe-app'
+    pcfAppName = 'cb-fe-app'
     //buildCommand = 'npm install -g angular-cli && npm run build'
     //testCommand = 'npm test'
     publishCommand = 'DEBUG=true ./jenkins-reference-framework/npm-publish.sh'
