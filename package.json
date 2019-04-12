@@ -1,5 +1,5 @@
 {
-  "name": "cb-fe-app",
+  "name": "@mrll/cb-fe-app",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
@@ -44,5 +44,6 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
-  }
+  },
+  "files": ["dist/**/*"]
 }
