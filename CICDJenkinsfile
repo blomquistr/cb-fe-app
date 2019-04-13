@@ -7,5 +7,5 @@ nodeDeliveryPipeline {
     //testCommand = 'npm test'
     publishCommand = 'DEBUG=true ./jenkins-reference-framework/npm-publish.sh'
     artifactoryRepoKey = 'cicd-npm'
-    artifactoryGroupName = 'com.mrll.cicd'
+    githubOrganization = 'blomquistr'
 }
