@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-@Library('jenkins-reference-framework@CLOUDBEES-87_fe-publish') _
+@Library('jenkins-reference-framework@CLOUDBEES-176_parallel-steps-in-stages') _
 
 nodeDeliveryPipeline {
     pcfAppName = 'cb-fe-app'
